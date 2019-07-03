@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <a href="index.html" class="navbar-brand">RAKIB INFO</a>
+
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <img src="images/Hamburger_icon.svg.png" style="height: 20px; width: 20px">
+        </button>
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a href="index.html" class="nav-link">HOME</a></li>
+                <li class="nav-item"><a href="about.html" class="nav-link">ABOUT</a></li>
+                <li class="nav-item"><a href="portfolio.html" class="nav-link">PORTFOLIO</a></li>
+                <li class="nav-item"><a href="gallery.html" class="nav-link">GALLERY</a></li>
+                <li class="nav-item"><a href="contact.html" class="nav-link">CONTACT</a></li>
+            </ul>
+        </div>
+    </nav>
+</header>
+
+
+<main>
+    <div id="slider" class="carousel slide" data-ride="carousel" data-interval="2000">
+
+        <!-- 1st Part-->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/rkb-1.jpg" alt="Los Angeles" width="100%" height="550">
+            </div>
+            <div class="carousel-item">
+                <img src="images/rkb-2.jpg" alt="Chicago" width="100%" height="550">
+            </div>
+            <div class="carousel-item">
+                <img src="images/rkb-3.jpg" alt="New York" width="100%" height="550">
+            </div>
+            <div class="carousel-item">
+                <img src="images/rkb-5.JPG" alt="New York" width="100%" height="550">
+            </div>
+            <div class="carousel-item">
+                <img src="images/rkb-9.JPG" alt="New York" width="100%" height="550">
+            </div>
+
+        </div>
+
+        <!--2nd part-->
+        <a class="carousel-control-prev" href="#slide" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#slider" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
+        <!--3rd-->
+        <ul class="carousel-indicators">
+            <li data-target="#slider" data-slide-to="0" class="active">1</li>
+            <li data-target="#slider" data-slide-to="1">2</li>
+            <li data-target="#slider" data-slide-to="2">2</li>
+            <li data-target="#slider" data-slide-to="3">3</li>
+            <li data-target="#slider" data-slide-to="4">4</li>
+        </ul>
+
+    </div>
+</main>
+
+<footer class="bg-dark">
+    <div class="footer_phase">
+        <span>@copyright <span id="year"></span>, all right reserved by Rakibul Islam Sujon.</span>
+        <br/>
+        <nav class="navbar navbar-expand-sm">
+            <ul class="navbar-nav m-auto">
+                <li class="nav-item"><a href="https://www.facebook.com/mdrakibul.alam.77" target="_blank" class="nav-link"><img src="images/face.png" class="icon_control"></a></li>
+                <li class="nav-item"><a href="https://www.instagram.com/?hl=en" target="_blank" class="nav-link"><img src="images/insta.png" class="icon_control"></a></li>
+                <li class="nav-item"><a href="#" target="_blank" class="nav-link"><img src="images/twitter-app-icon-png-1.jpg.png" class="icon_control"></a></li>
+                <li class="nav-item"><a href="#" target="_blank" class="nav-link"><img src="images/Github-icon.png" class="icon_control"></a></li>
+            </ul>
+        </nav>
+    </div>
+</footer>
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
