@@ -91,4 +91,16 @@
     width: auto;
     margin: 3.5%;
     border-radius: 15px;
+
+    position: relative;
+    animation: mymove 5s infinite;
+}
+@-webkit-keyframes mymove {
+    from {left: 0px;}
+    to {left: 700px;}
+}
+
+@keyframes mymove {
+    from {left: 0px;}
+    to {left: 700px;}
 }
